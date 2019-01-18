@@ -8,7 +8,8 @@
 // BOTON---------Declarar la variable de button button html
 // ejecutar funcion encode
   const button=document.getElementById("button");
-
+  const button2=document.getElementById("button2");
+  
 
   //usar addEventListener para el boton y guardar el dato evento/funcion
   // mandar a llamar que lo va a detonar (boton) Evento- funcion anonima
@@ -22,10 +23,22 @@
   //declarar valor opcion lugar.v y ponerlo en nueva variable offsetV
     let offsetValue= number.value;
 
-
-      window.cipher.encode(messageValue,offsetValue);
+// Ejecutar funcion encode
+    let cifradoA = window.cipher.encode(messageValue,offsetValue);
+    document.getElementById("cifrado").innerHTML= cifradoA;  
 });
 
 
 
-// Ejecutar funcion encode
+   button2.addEventListener("click",() => {
+     
+    let messageValue=message.value.toUpperCase();
+    let offsetValue=number.value;
+    
+    window.cipher.decode(messageValue,offsetValue);
+
+});
+
+//window.cipher.encode.parrafoA( )
+
+
