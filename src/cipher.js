@@ -20,7 +20,7 @@ encode: (messageValue,offsetValue) => {
   let desplazamientoCsr= ((numeroAscii-65+offset)% 26+65);
   // devolver cadena creada con valores unicode
   let cifrado=String.fromCharCode(desplazamientoCsr);
-  
+   
   parrafoA += cifrado
   }
  

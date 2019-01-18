@@ -35,7 +35,8 @@
     let messageValue=message.value.toUpperCase();
     let offsetValue=number.value;
     
-    window.cipher.decode(messageValue,offsetValue);
+    let cifradoB= window.cipher.decode(messageValue,offsetValue);
+    document.getElementById("cifrado").innerHTML=cifradoB;
 
 });
 
