@@ -24,7 +24,7 @@
     let offsetValue= number.value;
 
 // Ejecutar funcion encode
-    let cifradoA = window.cipher.encode(messageValue,offsetValue);
+    let cifradoA = window.cipher.encode(offsetValue,messageValue);
     document.getElementById("cifrado").innerHTML= cifradoA;  
 });
 
@@ -35,7 +35,7 @@
     let messageValue=message.value.toUpperCase();
     let offsetValue=number.value;
     
-    let cifradoB= window.cipher.decode(messageValue,offsetValue);
+    let cifradoB= window.cipher.decode(offsetValue,messageValue);
     document.getElementById("cifrado").innerHTML=cifradoB;
 
 });
