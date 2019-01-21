@@ -40,6 +40,6 @@
 
 });
 
-//window.cipher.encode.parrafoA( )
+
 
 
