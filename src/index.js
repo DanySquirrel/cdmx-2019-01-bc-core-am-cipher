@@ -16,21 +16,35 @@
   // funcion- ejecutar (window.ruta.encode)---rutas de objeto
 
   // con el click trae el valor que contienen los inputs  c/ . value
+  
 
+  // ID EVENTO PARA OCULTAR ¿ID? FUNCION 
+  // document.getElementById("Perry Start").style.display="block";
+  //  cifradoA.style.display="none"; 
+ 
+   
    button.addEventListener("click",() => {
-  //declarar valor mensaje.v y ponerlo en nueva variable menssageV - mayusculas
+
+    //document.getElementById("perryStart").style.display = "block";
+      //declarar valor mensaje.v y ponerlo en nueva variable menssageV - mayusculas
     let messageValue= message.value.toUpperCase();
   //declarar valor opcion lugar.v y ponerlo en nueva variable offsetV
     let offsetValue= number.value;
 
 // Ejecutar funcion encode
     let cifradoA = window.cipher.encode(offsetValue,messageValue);
-    document.getElementById("cifrado").innerHTML= cifradoA;  
+
+    document.getElementById("cifrado").innerHTML= cifradoA; 
+   
+
+   
 });
 
-
+// document.getElementById("Perry Start").style.display="block";
 
    button2.addEventListener("click",() => {
+
+   
      
     let messageValue=message.value.toUpperCase();
     let offsetValue=number.value;

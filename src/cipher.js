@@ -8,9 +8,12 @@ window.cipher = {
  //debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33
 encode: (offsetValue,messageValue) => {
 
-   let offset= parseInt(offsetValue)
+  let offset= parseInt(offsetValue)
 
   let parrafoA = "";
+
+
+
 
   for (let i=0; i < messageValue.length; i++){
 

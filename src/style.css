@@ -1,0 +1,117 @@
+
+
+
+body{
+    
+    background-image: linear-gradient(#3AE5DE, #B391C7);
+}
+
+header {
+   
+    text-align:center;   
+
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Slackey';
+    color:white;
+    margin-top: 90px;
+    margin-bottom: 0px;
+   
+    
+}
+
+.logo{
+    margin-top: 160px;
+    margin-bottom: 250px;
+      
+    
+}
+
+
+
+
+  
+  
+.container{
+    color:white;
+    text-align:center;
+  
+   
+     
+} 
+
+
+.input{
+    border: 1px solid #4AB0B4;
+    width: 650px;
+    padding: 50px;
+    border-radius: 8px;
+    text-align: center;
+    font-size:40px;
+    background-color: lightcyan;
+   
+    
+}
+
+
+
+.button {
+    height: 250px;
+    width: 250px;
+    background-color:rgb(119, 220, 234) ;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 100px;
+    font-family: Lucida Sans Unicode;
+    border:0px;
+    display: inline-block;
+    
+    overflow:hidden;
+}
+
+.button:hover{
+    
+    transform:scale(1.2);
+    background-color:white ;
+}
+     
+.botones{
+   width: 100%;
+}
+
+.button1{
+    width: 49%;
+    float: left;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+p{
+    text-align:center;
+    color:black;
+    font-size: 60px;
+    font-family: Lucida Sans Unicode;
+    margin-top: 50%;
+    margin-bottom: 20%;
+
+  }
+
+  .footer {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 50%;
+
+  }
+
+/*.perryStart{
+    display:block;
+
+} */
+
+/*.perrySecret{
+    display:none;
+}*/
+
